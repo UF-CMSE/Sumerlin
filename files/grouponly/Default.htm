@@ -1,0 +1,267 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onLoad="FP_preloadImgs(/*url*/'../images/buttonD0.jpg', /*url*/'../images/buttonCF.jpg', /*url*/'../images/buttonD3.jpg', /*url*/'../images/buttonD2.jpg', /*url*/'../images/buttonD6.jpg', /*url*/'../images/buttonD5.jpg', /*url*/'../images/buttonD9.jpg', /*url*/'../images/buttonD8.jpg', /*url*/'../images/buttonDC.jpg', /*url*/'../images/buttonDB.jpg', /*url*/'../images/buttonDF.jpg', /*url*/'../images/buttonDE.jpg', /*url*/'../images/buttonE2.jpg', /*url*/'../images/buttonE1.jpg', /*url*/'../images/buttonE5.jpg', /*url*/'../images/buttonE4.jpg')" topmargin="0" leftmargin="0" bottommargin="0" link="#000080" vlink="#000080">
+
+<div align="center">
+
+<table border="0" width="762" bordercolorlight="#000000" bordercolordark="#000000" height="96%" id="table19" cellpadding="5" cellspacing="3" style="border-collapse: collapse">
+	<!-- MSTableType="nolayout" --><tr>
+		<td valign="top" style="border-left-style: solid; border-left-width: 0px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px" align="center">
+		<table border="6" width="100%" id="table20" style="border-left-style: solid; border-left-width: 2px; border-right-width: 2px; border-top-style: solid; border-top-width: 2px; border-bottom-style: solid; border-bottom-width: 2px; padding-left: 4px; padding-right: 4px; padding-top: 1px; padding-bottom: 1px" cellspacing="0" bordercolorlight="#C0C0C0" bordercolordark="#C0C0C0">
+			<tr>
+			  <td style="border-right-style: none;
+                      border-right-width: medium" background="../images/ufcolors/bg.jpg"
+                      width="89%"> <span style="font-variant:
+                        small-caps"><b> <font color="#ffffff"
+                            face="Trebuchet MS" size="5">&nbsp;</font><font
+                            color="#ffffff" size="6"><a
+                              href="Default.htm" style="text-decoration:
+                              none"><font color="#FFFFFF" face="Calibri">Sumerlin
+
+                                Research Group</font></a></font></b></span><br>
+                      <font color="#ffffff" face="Trebuchet MS" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font
+                        face="Arial" size="1"><a style="text-decoration:
+                          none" href="http://www.chem.ufl.edu/"><font
+                            color="#FFFFFF">Department of Chemistry</font></a><font
+                          color="#FFFFFF">, </font> <a
+                          href="http://www.ufl.edu"
+                          style="text-decoration: none"> <font
+                            color="#FFFFFF">University of Florida</font></a><font color="#FFFFFF">
+                          <br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PO Box 117200, Gainesville, FL 32611-7200<br>
+                          &nbsp;</font></font></td>
+				<td width="9%" bgcolor="#000080" align="justify" style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1px">
+				<img border="0" src="../images/cabinet.jpg" width="74" height="68"></td>
+			</tr>
+		</table>
+		<table border="0" width="100%" id="table21" style="border-collapse: collapse" cellpadding="0">
+			<tr>
+				<td align="center" valign="top"> <a
+                        href="../Default.htm"> 
+                        
+                        <img id="img51"
+                          src="../images/ufcolors/homeOFF.jpg" alt="home"
+                          onmouseover="FP_swapImg(1,0,/*id*/'img51',/*url*/'../images/ufcolors/homeON.jpg')"
+onmouseout="FP_swapImg(0,0,/*id*/'img51',/*url*/'../images/ufcolors/homeOFF.jpg')"
+onmousedown="FP_swapImg(1,0,/*id*/'img51',/*url*/'../images/ufcolors/homeON.jpg')"
+onmouseup="FP_swapImg(0,0,/*id*/'img51',/*url*/'../images/ufcolors/homeOFF.jpg')"
+                          fp-style="fp-btn: Border Bottom 3;
+                          fp-font-size: 9; fp-font-color-hover: #0000FF;
+                          fp-proportional: 0" fp-title="home"
+                          border="0" height="20" width="88"></a> <a href="../research.htm"> 
+                          
+                          <img id="img52"
+                          src="../images/ufcolors/researchOFF.jpg" alt="research"
+                          onmouseover="FP_swapImg(1,0,/*id*/'img52',/*url*/'../images/ufcolors/researchON.jpg')"
+onmouseout="FP_swapImg(0,0,/*id*/'img52',/*url*/'../images/ufcolors/researchOFF.jpg')"
+onmousedown="FP_swapImg(1,0,/*id*/'img52',/*url*/'../images/ufcolors/researchON.jpg')"
+onmouseup="FP_swapImg(0,0,/*id*/'img52',/*url*/'../images/ufcolors/researchOFF.jpg')"
+                          fp-style="fp-btn: Border Bottom 3;
+                          fp-font-size: 9; fp-font-color-hover: #0000FF;
+                          fp-proportional: 0" fp-title="research"
+                          border="0" height="20" width="88"></a> <a href="../people.htm"> 
+                          
+                          <img id="img53"
+                          src="../images/ufcolors/peopleOFF.jpg" alt="people"
+                          onmouseover="FP_swapImg(1,0,/*id*/'img53',/*url*/'../images/ufcolors/peopleON.jpg')"
+onmouseout="FP_swapImg(0,0,/*id*/'img53',/*url*/'../images/ufcolors/peopleOFF.jpg')"
+onmousedown="FP_swapImg(1,0,/*id*/'img53',/*url*/'../images/ufcolors/peopleON.jpg')"
+onmouseup="FP_swapImg(0,0,/*id*/'img53',/*url*/'../images/ufcolors/peopleOFF.jpg')"
+                          fp-style="fp-btn: Border Bottom 3;
+                          fp-font-size: 9; fp-font-color-hover: #0000FF;
+                          fp-proportional: 0" fp-title="people"
+                          border="0" height="20" width="88"></a> <a
+                        href="../publications.htm"> 
+                        
+                        <img id="img55"
+                          src="../images/ufcolors/pubOFF.jpg" alt="home"
+                          onmouseover="FP_swapImg(1,0,/*id*/'img55',/*url*/'../images/ufcolors/pubON.jpg')"
+onmouseout="FP_swapImg(0,0,/*id*/'img55',/*url*/'../images/ufcolors/pubOFF.jpg')"
+onmousedown="FP_swapImg(1,0,/*id*/'img55',/*url*/'../images/ufcolors/pubON.jpg')"
+onmouseup="FP_swapImg(0,0,/*id*/'img55',/*url*/'../images/ufcolors/pubOFF.jpg')"
+                          fp-style="fp-btn: Border Bottom 3;
+                          fp-font-size: 9; fp-font-color-hover: #0000FF;
+                          fp-proportional: 0" fp-title="Publications"
+                          border="0" height="20" width="88"></a> <a href="../openings.htm"> 
+                          
+                          <img id="img56"
+                          src="../images/ufcolors/openingsOFF.jpg" alt="openings"
+                          onmouseover="FP_swapImg(1,0,/*id*/'img56',/*url*/'../images/ufcolors/openingsON.jpg')"
+onmouseout="FP_swapImg(0,0,/*id*/'img56',/*url*/'../images/ufcolors/openingsOFF.jpg')"
+onmousedown="FP_swapImg(1,0,/*id*/'img56',/*url*/'../images/ufcolors/openingsON.jpg')"
+onmouseup="FP_swapImg(0,0,/*id*/'img56',/*url*/'../images/ufcolors/openingsOFF.jpg')"
+                          fp-style="fp-btn: Border Bottom 3;
+                          fp-font-size: 9; fp-font-color-hover: #0000FF;
+                          fp-proportional: 0" fp-title="openings"
+                          border="0" height="20" width="88"></a>  <a href="../courses.htm">
+                          
+                          <img id="img58"
+                          src="../images/ufcolors/coursesOFF.jpg" alt="courses"
+                          onmouseover="FP_swapImg(1,0,/*id*/'img58',/*url*/'../images/ufcolors/coursesON.jpg')"
+onmouseout="FP_swapImg(0,0,/*id*/'img58',/*url*/'../images/ufcolors/coursesOFF.jpg')"
+onmousedown="FP_swapImg(1,0,/*id*/'img58',/*url*/'../images/ufcolors/coursesON.jpg')"
+onmouseup="FP_swapImg(0,0,/*id*/'img58',/*url*/'../images/ufcolors/coursesOFF.jpg')"
+                          fp-style="fp-btn: Border Bottom 3;
+                          fp-font-size: 9; fp-font-color-hover: #0000FF;
+                          fp-proportional: 0" fp-title="courses"
+                          border="0" height="20" width="88"></a>  <a href="../links.htm"> 
+                          
+                          <img id="img59"
+                          src="../images/ufcolors/linksOFF.jpg" alt="links"
+                          onmouseover="FP_swapImg(1,0,/*id*/'img59',/*url*/'../images/ufcolors/linksON.jpg')"
+onmouseout="FP_swapImg(0,0,/*id*/'img59',/*url*/'../images/ufcolors/linksOFF.jpg')"
+onmousedown="FP_swapImg(1,0,/*id*/'img59',/*url*/'../images/ufcolors/linksON.jpg')"
+onmouseup="FP_swapImg(0,0,/*id*/'img59',/*url*/'../images/ufcolors/linksOFF.jpg')"
+                          fp-style="fp-btn: Border Bottom 3;
+                          fp-font-size: 9; fp-font-color-hover: #0000FF;
+                          fp-proportional: 0" fp-title="links"
+                          border="0" height="20" width="88"></a></td>
+			</tr>
+		</table>
+		<h1 align="center"><span style="font-variant: small-caps">
+		<font face="Trebuchet MS" color="#000080">Group Only</font></span></h1>
+		<table width="42%" bordercolorlight="#000000" bordercolordark="#000000" id="table23" cellpadding="5" style="border-collapse: collapse; padding-left: 4px; padding-right: 4px; padding-top: 1px; padding-bottom: 1px" background="../images/Color%20Gradient.PNG" border="1">
+			<tr>
+				<td style="border-style: inset; border-width: 1px; letter-spacing:-1pt; font-family:arial,sans-serif; color:#000">
+				<p align="center"><b><font face="Trebuchet MS" color="#000080">
+				Group Meetings</font></b></td>
+				<td style="border-style: inset; border-width: 1px; letter-spacing:-1pt; font-family:arial,sans-serif; color:#000">
+				<b><font color="#000080" face="Trebuchet MS">
+				Individuals</font></b></td>
+			</tr>
+			<tr>
+				<td style="border-style: inset; border-width: 1px; font-family:arial,sans-serif; color:#000" width="53%">
+			  <table border="1" width="100%" id="table24" style="border-collapse: collapse; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px" bordercolor="#000080">
+					<tr>
+						<td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-top-style: none; border-top-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="center">
+						<b><font size="2" color="#000080">R</font></b></td>
+						<td style="border-left-style: none; border-left-width: medium; border-top-style: none; border-top-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="center">
+						<p align="left"><b><font size="2" color="#000080">L2</font></b></td>
+						<td style="border-left-style: solid; border-left-width: 1px; border-right-style: none; border-right-width: medium; border-top-style: none; border-top-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#FFFFFF" align="center">
+						<b><font size="2" color="#000080">L</font></b></td>
+					</tr>
+					<tr>
+						<td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">(1)&nbsp;&nbsp; Cambre</font></td>
+						<td style="border-left-style: none; border-left-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">Roy</font></td>
+						<td style="border-left-style: solid; border-left-width: 1px; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#FFFFFF" align="left">
+						<font size="1">(2)&nbsp;&nbsp; Dey</font></td>
+					</tr>
+					<tr>
+						<td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">(3)&nbsp;&nbsp; Li</font></td>
+						<td style="border-left-style: none; border-left-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">Gondi</font></td>
+						<td style="border-left-style: solid; border-left-width: 1px; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#FFFFFF" align="left">
+						<font size="1">(4)&nbsp;&nbsp; Vogt</font></td>
+					</tr>
+					<tr>
+						<td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">(5)&nbsp;&nbsp; Dey</font></td>
+						<td style="border-left-style: none; border-left-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">Cambre</font></td>
+						<td style="border-left-style: solid; border-left-width: 1px; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#FFFFFF" align="left">
+						<font size="1">(6)&nbsp;&nbsp; Roy</font></td>
+					</tr>
+					<tr>
+						<td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">(7)&nbsp;&nbsp; Vogt</font></td>
+						<td style="border-left-style: none; border-left-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">Li</font></td>
+						<td style="border-left-style: solid; border-left-width: 1px; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#FFFFFF" align="left">
+						<font size="1">(8)&nbsp;&nbsp; Gondi</font></td>
+					</tr>
+					<tr>
+						<td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">(9)&nbsp;&nbsp; Roy</font></td>
+						<td style="border-left-style: none; border-left-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">Dey</font></td>
+						<td style="border-left-style: solid; border-left-width: 1px; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#FFFFFF" align="left">
+						<font size="1">(10) Cambre</font></td>
+					</tr>
+					<tr>
+						<td style="border-left-style: none; border-left-width: medium; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">(11) Gondi</font></td>
+						<td style="border-left-style: none; border-left-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#C0C0C0" align="left">
+						<font size="1">Vogt</font></td>
+						<td style="border-left-style: solid; border-left-width: 1px; border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1px; font-family:arial,sans-serif; color:#000" bgcolor="#FFFFFF" align="left">
+						<font size="1">(12) Li</font></td>
+					</tr>
+				</table>
+&nbsp;</td>
+				<td style="border-style: inset; border-width: 1px; font-family:arial,sans-serif; color:#000" width="24%" align="left" valign="top">
+				<b><font face="Trebuchet MS" size="2">(Fridays)<br>
+				</font><font size="1" color="#000080" face="Trebuchet MS">&nbsp; 
+				9:15
+				</font></b><font face="Trebuchet MS" size="1">- Gondi<br>
+				<font color="#000080"><b>&nbsp; 9:45</b></font> - Vogt<br>
+				<b><font color="#000080">10:</font></b><font color="#000080"><b>15</b></font> - Dey<br>
+				<font color="#000080"><b>10:45 </b></font>- Li<br>
+				<font color="#000080"><b>11:15 </b></font>- Roy<b><font color="#000080"><br>
+				11:</font></b><font color="#000080"><b>45</b></font> - Cambre</font></td>
+			</tr>
+		  </table>
+		<p>&nbsp;</p>
+		<p><b><font face="Trebuchet MS">
+		<a href="Files/Complete%20Chemical%20Inventory%20for%20224.xls">Chemical 
+		Inventory</a></font></b></p>
+		<p>&nbsp;</p>
+		<p align="center"><font face="Trebuchet MS" size="1">
+		<a href="../Default.htm"><font color="#000080">Home</font></a><font color="#000080">&nbsp; 
+		-&nbsp; </font><a href="../research.htm"><font color="#000080">Research</font></a><font color="#000080">&nbsp; 
+		-&nbsp; </font><a href="../groupmembers.htm"><font color="#000080">Group</font></a><font color="#000080">&nbsp;</font><font color="#000080"> -&nbsp; </font>
+		<a href="../openings.htm"><font color="#000080">Openings</font></a><a href="../openings.htm"><font color="#000080"> </font></a><font color="#000080">&nbsp;-&nbsp; </font>
+		<a href="../courses.htm"><font color="#000080">Courses</font></a><font color="#000080">&nbsp; 
+		-&nbsp; </font><a href="../links.htm"><font color="#000080">Links</font></a><font color="#000080">&nbsp; 
+		-&nbsp; </font><a href="mailto:sumerlin@chem.ufl.edu?subject=Web Inquiry">
+		<font color="#000080">Contact us</font></a></font></p>
+		<p align="center"><a href="http://www.ufl.edu/" target="_blank"><img src="../images/ufcolors/uf.gif" alt="University of Florida" width="150" height="40" border="0"></a></p><!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=975639; 
+var sc_invisible=1; 
+var sc_partition=3; 
+var sc_security="6db9dc8d"; 
+var sc_https=1; 
+var sc_remove_link=1; 
+</script>
+
+<script type="text/javascript" language="javascript" src="https://secure.statcounter.com/counter/counter.js"></script><noscript><img  src="https://c4.statcounter.com/counter.php?sc_project=975639&amp;java=0&amp;security=6db9dc8d&amp;invisible=1" alt="free stats" border="0"> </noscript>
+<!-- End of StatCounter Code --></font></p>
+		</td>
+	</tr>
+</table>
+
+	</div>
+
+</body>
+
+</html>

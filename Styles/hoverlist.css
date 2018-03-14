@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hoverlist {
+	position: relative;
+    list-style-type: none;
+    width: 98%;
+	margin-left: 1em;
+}
+
+.hoverlist .entry {
+	border: 1px dotted #999;
+    border-width: 1px 0;
+	margin: 5px 0 0 0;
+	color: black;
+	display: block;
+	padding: 5px;
+	position: relative;
+	text-decoration: none;
+}
+.hoverlist .entry:hover {
+	background: #ffffcc;
+}
+.hoverlist .entry em {
+	color: black;
+	position: relative;
+	display: block;
+	font-style: normal;
+}
+.hoverlist .entry span { 
+	color: #555555;
+	display: block;
+	font-style: normal;
+	font-size: 90%; /* Verdana, Helvetica, sans-serif; */
+	line-height: 125%;
+
+}
+.hoverlist .entry .right {
+	position: absolute;
+	right: -4em;
+	top: 1em;
+}

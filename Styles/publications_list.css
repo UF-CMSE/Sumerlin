@@ -1,0 +1,35 @@
+.publications_list {
+	margin-left: 10px;
+	border-top: dotted 1px #CCC;
+}
+.publications_list .row_blue{
+	background-color: #F4F5FF;
+	overflow: auto; /* required to clear the float */
+	width: 100%;
+	border-bottom: dotted 1px #CCC;
+	padding-top:5px;
+}
+.publications_list .row_white {
+	background-color:#FFF;
+	overflow: auto;
+	width: 100%;
+	border-bottom: dotted 1px #CCC;
+	padding-top:5px;
+}
+
+.publications_list h3 {
+	display: block;
+	font-style: normal;
+	font-size: 105%;
+	margin-bottom: 2px;
+}
+
+.publications_list p {
+	color: #555555;
+	display: block;
+	font-style: normal;
+	font-size: 95%; /* Verdana, Helvetica, sans-serif; */
+	line-height: 125%;
+}
+
+.publications_list 

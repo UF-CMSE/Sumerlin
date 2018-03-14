@@ -1,0 +1,23 @@
+(green)
+find: 268d60
+replace: 003f89
+
+(ice blue)
+find: a0f0e8
+replace: 5789b7
+
+(off blue, bg for button selector)
+find: 008ee3
+replace: 5789b7
+
+(hyperlink blue)
+find: 0085d3
+replace: 5789b7
+
+(hyperlink-visited)
+find: 6E6C64
+replace: f56635
+
+
+NEW BLUE: 2f60fa
+NEW ORANGE: f3750d
